@@ -24,21 +24,21 @@ git clone https://github.com/virtual-avatar/docker-laravel-rest-api.git
 
 cd /"Ваш_каталог"/laravel
 
-Установить docker docker-compose make :
+##### Установить docker docker-compose make :
 
 apt-get -y  update
 
 apt-get -y  install docker docker-compose make
 
-Создать необходимые контейнеры
+##### Создать необходимые контейнеры
 
 make init
 
-проверить что создались и запустились
+##### проверить что создались и запустились
 
 docker ps
 
-После остановить
+##### После остановить
 
 make docker-down
 
@@ -46,6 +46,6 @@ make docker-down
 
 make docker-up
 
-Приложение доступно по адресу:
+##### Приложение доступно по адресу:
 
 http://"ВАШ_API":8080/contacts
